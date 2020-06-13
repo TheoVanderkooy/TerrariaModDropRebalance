@@ -1,0 +1,3 @@
+displayName = Rebalance for drops in master mode
+author = Theo Vanderkooy
+version = 0.1
