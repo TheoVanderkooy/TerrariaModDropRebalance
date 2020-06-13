@@ -5,15 +5,15 @@ namespace MasterModeDropRebalance.Items
 {
 	public class TestSword : ModItem
 	{
-		public override void SetStaticDefaults() 
+		public override void SetStaticDefaults()
 		{
 			// DisplayName.SetDefault("TestSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
 			Tooltip.SetDefault("This is a basic modded sword.");
 		}
 
-		public override void SetDefaults() 
+		public override void SetDefaults()
 		{
-			item.damage = 50;
+			item.damage = 75;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
@@ -27,7 +27,7 @@ namespace MasterModeDropRebalance.Items
 			item.autoReuse = true;
 		}
 
-		public override void AddRecipes() 
+		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.DirtBlock, 10);
