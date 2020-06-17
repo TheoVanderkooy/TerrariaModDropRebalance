@@ -4,7 +4,8 @@ namespace MasterModeDropRebalance
 {
 	public class MasterModeDropRebalance : Mod
 	{
-		public override void Load() {
+		public override void Load()
+		{
 
 		}
 	}
